@@ -1,2 +1,2 @@
 # ITGirls-Team-3
-Group project of third team
+Групповой проект 3-й команды
