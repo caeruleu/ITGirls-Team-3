@@ -1,0 +1,11 @@
+.navTop {
+    font-family: "Montserrat";
+    font-size: 2vh;
+    font-weight: 700;
+}
+
+.search,
+.cart,
+.arrowLeft {
+    height: 3vh;
+}

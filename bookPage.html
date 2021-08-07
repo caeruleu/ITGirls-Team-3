@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style/bookPage.css">
+    <link rel="stylesheet" href="assets/style/commonStyles.css">
     <link rel="stylesheet" href="assets/font/PlayfairDisplay-VariableFont_wght.ttf">
     <link rel="stylesheet" href="assets/font/Montserrat-Regular.ttf">
     <title>Book page</title>
@@ -15,14 +16,22 @@
 
 <body>
     <div class="container">
-        <div class="row rowHeader justify-content-end">
-            <div class="col-3">
-                <!-- Здесь будет кнопка поиска-->
+        <nav class="navbar navTop navbar-expand-lg navbar-light bg-light">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="homePage.html">
+                            <img class="arrowLeft" src="images/arrow_left.png" alt="back">
+                            <span class="sr-only">(current)</span></a>
+                </ul>
+                <a href="www.google.com">
+                    <img class="search mx-3" src="images/search_icon.png" alt="search">
+                </a>
+                <a href="http://localhost:8080/cart">
+                    <img class="cart mx-1" src="images/shop_icon.png" alt="cart">
+                </a>
             </div>
-            <div class="col-3">
-                <!-- Здесь будет кнопка корзины-->
-            </div>
-        </div>
+        </nav>
         <div class="row rowAboutBook ">
             <div class="col justify-content-center">
                 <!-- Здесь будет обложка книги, автор, издательство, цена и описание-->

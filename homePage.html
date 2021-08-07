@@ -11,6 +11,7 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/style/homePage.css">
+    <link rel="stylesheet" href="assets/style/commonStyles.css">
     <link rel="stylesheet" href="assets/font/PlayfairDisplay-VariableFont_wght.ttf">
     <link rel="stylesheet" href="assets/font/Montserrat-Regular.ttf">
     <title>Home page</title>
@@ -18,19 +19,21 @@
 
 <body>
     <div class="container">
-        <div class="row rowHeader">
-            <div class="row rowHeader">
-                <div class="col-6">
-                    <!-- Здесь будет название раздела-->
-                </div>
-                <div class="col-3">
-                    <!-- Здесь будет кнопка поиска-->
-                </div>
-                <div class="col-3">
-                    <!-- Здесь будет кнопка корзины-->
-                </div>
+        <nav class="navbar navTop navbar-expand-lg navbar-light bg-light">
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </ul>
+                <a href="www.google.com">
+                    <img class="search mx-3" src="images/search_icon.png" alt="search">
+                </a>
+                <a href="http://localhost:8080/cart">
+                    <img class="cart mx-1" src="images/shop_icon.png" alt="cart">
+                </a>
             </div>
-        </div>
+        </nav>
         <div class="row rowWelcome">
             <div class="col">
                 <!--Приветствие-->
@@ -59,7 +62,7 @@
         <div class="row rowName">
             <div class="col">
                 <!--Название раздела-->
-               <h3>Latest Arrivals</h3>
+                <h3>Latest Arrivals</h3>
             </div>
         </div>
         <div class="row rowArrivals">
