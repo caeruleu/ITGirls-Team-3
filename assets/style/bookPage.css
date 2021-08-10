@@ -60,3 +60,39 @@
 .Publisher {
     margin: 8vh 0 0 0;
 }
+
+.Genres {
+    margin: 5vh 0 1vh 0;
+    text-align: center;
+    font-weight: 1000;
+    font-family: 'Montserrat';
+}
+
+.colGradient {
+    display: flex;
+    justify-content: center;
+}
+
+.genreContemporary {
+    font-family: 'Montserrat';
+    font-size: 15px;
+    border: none;
+    background-image: linear-gradient(to right, #F2D05C 0%, #F3A492 100%);
+    color: white;
+    padding: 10px;
+    width: 40%;
+    margin: 5px;
+    border-radius: 16px;
+}
+
+.genreGeneralFiction {
+    font-family: 'Montserrat';
+    font-size: 15px;
+    border: none;
+    background-image: linear-gradient(to right, #53889D 0%, #BBD1D9 100%);
+    color: white;
+    padding: 10px;
+    width: 40%;
+    margin: 5px;
+    border-radius: 16px;
+}
