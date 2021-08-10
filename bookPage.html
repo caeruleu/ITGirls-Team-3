@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="assets/style/bookPage.css">
     <link rel="stylesheet" href="assets/style/commonStyles.css">
     <link rel="stylesheet" href="assets/font/PlayfairDisplay-VariableFont_wght.ttf">
-    <link rel="stylesheet" href="assets/font/Montserrat-Regular.ttf">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <title>Book page</title>
 </head>
 
@@ -32,19 +32,32 @@
                 </a>
             </div>
         </nav>
-        <div class="row rowAboutBook ">
-            <div class="col justify-content-center">
+        <div class="row rowAboutBook justify-content-center">
+            <div class="col colAvatar justify-content-center col-sm-6 col-xs-12">
                 <!-- Здесь будет обложка книги, автор, издательство, цена и описание-->
+                <img class="bookAvatar" src="images/book_avatar.png" alt="book's avatar">
+                <h3 class="bookName">Conversations with Friends</h3>
+                <h5 class="bookAuthor">Sally Rooney</h5>
+                <p class="Publicated">Paperback | 2nd Edition</p>
+                <h3 class="bookPrice">€12.90</h3>
+                <p class="bookDescription">A blurb about the book goes here. A few sentences that are nice and easy to
+                    read. Like one that’s enticing... <span class="readMore">read more</span>
+                </p>
             </div>
         </div>
-        <div class="row rowButtons">
-            <div class="col">
+        <div class="row rowButtons justify-content-center">
+            <div class="col colButtons col-sm-6 col-xs-12">
                 <!--здесь будут кнопки add to cart и wishlist-->
+                <button class="Add">Add to cart</button>
+                <button class="Wish">Wishlist</button>
             </div>
         </div>
-        <div class="row rowPublisher">
-            <div class="col">
+        <div class="row rowPublisher justify-content-center">
+            <div class="col col-sm-6 col-xs-12">
                 <!--Информация об издателе-->
+                <p class="Publisher">Publisher: Faber & Faber <br>
+                    Date Published: 1 March 2018 <br>
+                    ISBN13: 9780571333134</p>
             </div>
         </div>
         <div class="row rowName">

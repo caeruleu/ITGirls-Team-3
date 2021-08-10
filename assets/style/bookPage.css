@@ -1,0 +1,62 @@
+.colAvatar,
+.colButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bookName,
+.bookPrice {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'PlayfairDisplay';
+}
+
+.bookAuthor {
+    text-align: center;
+    font-family: 'Montserrat';
+}
+
+.Publicated,
+.Publisher {
+    text-align: center;
+    font-family: 'Montserrat';
+    color: rgba(130, 130, 130, 1);
+}
+
+.bookDescription {
+    text-align: center;
+    font-family: 'Montserrat';
+}
+
+.readMore {
+    color: #53889D;
+}
+
+.Add {
+    font-family: 'Montserrat';
+    font-size: 30px;
+    background-color: #D96F6E;
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 90%;
+    margin: 2px;
+    border-radius: 8px;
+}
+
+.Wish {
+    font-family: 'Montserrat';
+    font-size: 30px;
+    background-color: #F3A492;
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 90%;
+    margin: 2px;
+    border-radius: 8px;
+}
+
+.Publisher {
+    margin: 8vh 0 0 0;
+}
