@@ -1,0 +1,70 @@
+.genreAfrican,
+.genreClassics,
+.genreContemporary,
+.genreFemLit,
+.genreMemoirs,
+.genrePsycThrillers,
+.genreTrueCrime {
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    padding: 8px 20px 8px 20px;
+    margin: 5px;
+    border-radius: 16px;
+}
+
+.genreAfrican {
+    background-image: linear-gradient(to right, #53889D 0%, #BBD1D9 100%);
+}
+
+.genreClassics {
+    background-image: linear-gradient(to right, #F3A492 0%, #D96F6E 100%);
+}
+
+.genreContemporary {
+    background-image: linear-gradient(to right, #F2D05C 0%, #F3A492 100%);
+}
+
+.genreFemLit {
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    background-image: linear-gradient(to right, #F2D05C 0%, #F3A492 100%);
+    color: white;
+    padding: 8px 20px 8px 20px;
+    margin: 5px;
+    border-radius: 16px;
+}
+
+.genreMemoirs {
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    background-image: linear-gradient(to right, #BBD1D9 0%, #F2D05C 100%);
+    color: white;
+    padding: 8px 20px 8px 20px;
+    margin: 5px;
+    border-radius: 16px;
+}
+
+.genrePsycThrillers {
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    background-image: linear-gradient(to right, #D96F6E 0%, #F2D05C 100%);
+    color: white;
+    padding: 8px 20px 8px 20px;
+    margin: 5px;
+    border-radius: 16px;
+}
+
+
+
+.genreTrueCrime {
+    background-image: linear-gradient(to right, #53889D 0%, #BBD1D9 100%);
+}

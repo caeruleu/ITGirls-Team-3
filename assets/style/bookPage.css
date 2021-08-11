@@ -12,9 +12,18 @@
     font-family: 'PlayfairDisplay';
 }
 
-.bookAuthor {
+.bookAuthor,
+.bookDescription,
+.Genres,
+.Share {
     text-align: center;
     font-family: 'Montserrat';
+    font-weight: 900;
+}
+
+.Genres,
+.Share {
+    margin: 5vh 0 1vh 0;
 }
 
 .Publicated,
@@ -22,11 +31,6 @@
     text-align: center;
     font-family: 'Montserrat';
     color: rgba(130, 130, 130, 1);
-}
-
-.bookDescription {
-    text-align: center;
-    font-family: 'Montserrat';
 }
 
 .readMore {
@@ -61,14 +65,8 @@
     margin: 8vh 0 0 0;
 }
 
-.Genres {
-    margin: 5vh 0 1vh 0;
-    text-align: center;
-    font-weight: 1000;
-    font-family: 'Montserrat';
-}
-
-.colGradient {
+.colGradient,
+.colShare {
     display: flex;
     justify-content: center;
 }
@@ -76,6 +74,7 @@
 .genreContemporary {
     font-family: 'Montserrat';
     font-size: 15px;
+    font-weight: bold;
     border: none;
     background-image: linear-gradient(to right, #F2D05C 0%, #F3A492 100%);
     color: white;
@@ -88,6 +87,7 @@
 .genreGeneralFiction {
     font-family: 'Montserrat';
     font-size: 15px;
+    font-weight: bold;
     border: none;
     background-image: linear-gradient(to right, #53889D 0%, #BBD1D9 100%);
     color: white;
@@ -95,4 +95,15 @@
     width: 40%;
     margin: 5px;
     border-radius: 16px;
+}
+
+.buttonShare {
+    border: none;
+    background-color: white;
+    width: 15vw;
+    margin: 15px 0 0 0;
+}
+
+.picShare {
+    width: 100%;
 }
