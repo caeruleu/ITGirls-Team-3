@@ -10,6 +10,7 @@
     text-align: center;
     font-weight: bold;
     font-family: 'PlayfairDisplay';
+    word-wrap: break-word;
 }
 
 .bookAuthor,
@@ -66,7 +67,7 @@
 }
 
 .colGradient,
-.colShare {
+.colName {
     display: flex;
     justify-content: center;
 }
@@ -106,4 +107,44 @@
 
 .picShare {
     width: 100%;
+}
+
+.Similar {
+    font-family: 'PlayfairDisplay';
+    font-weight: bold;
+    margin: 5vh 0 2vh 0;
+}
+
+#scroller {
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.scrollbox {
+    float: left;
+    margin-right: -30000px;
+}
+
+.scrollbox div {
+    float: left;
+    margin: 0 5vw 0 0;
+}
+
+.bookScroll {
+    font-weight: bold;
+    font-family: 'PlayfairDisplay';
+    font-size: 16px;
+}
+
+.AuthorName {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.scrollPrice {
+    color: #D96F6E;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 12px;
 }
