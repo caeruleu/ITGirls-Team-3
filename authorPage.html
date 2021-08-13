@@ -33,28 +33,33 @@
             </div>
         </nav>
 
-        <div class="row rowAuthor">
-            <div class="col">
-                <!-- Здесь будет аватарка автора, его имя и место проживания-->
-                2
+        <div class="row rowAuthor justify-content-center">
+            <div class="col colAvatar col-sm-6 col-xs-12">
+                <!-- аватарка автора, его имя и место проживания-->
+                <div class="imgContainer"><img src="images/avatar.png" alt="Author's avatar"></div>
+                <h1>Jessica Mapleton</h1>
+                <p class="authorLocation">CAPE TOWN, SOUTH AFRICA</p>
                 <div class="row justify-content-around">
-                    <div class="col-3">
-                        <!--Здесь будет кол-во подписок-->
-                        2.1
+                    <div class="col col-sm-3 col-xs-6 colSubAvatar">
+                        <!--кол-во подписок-->
+                        <p class="follow">Following</p>
+                        <h5 class="followAmount">2,1k</h5>
                     </div>
-                    <div class="col-3">
-                        <!--Здесь будет кол-во подписчиков-->
-                        2.2
+                    <div class="col col-sm-3 col-xs-6 colSubAvatar">
+                        <!--кол-во подписчиков-->
+                        <p class="follow">Followers</p>
+                        <h5 class="followAmount">945k</h5>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row rowName">
-            <div class="col">
-                <!-- Здесь будет название раздела-->
+        <div class="row rowName justify-content-center">
+            <div class="col colName col-sm-6 col-xs-12">
+                <!-- название раздела-->
+                <h6 class="name">Favorite Genres</h6>
             </div>
         </div>
-        <div class="row rowFavourites">
+        <div class="row rowFavourites justify-content-center">
             <div class="col colGradient col-sm-6 col-xs-12">
                 <!-- градиентные кнопки-->
                 <button class="genreAfrican">African</button>
@@ -66,43 +71,62 @@
                 <button class="genreTrueCrime">True Crime</button>
             </div>
         </div>
-        <div class="row rowName">
-            <div class="col">
+        <div class="row rowName justify-content-center">
+            <div class="col col-sm-6 col-xs-12">
+                <!-- название раздела -->
+                <h6 class="name">Purchased books</h6>
+            </div>
+        </div>
+        <div class="row rowPurchased justify-content-center">
+            <div class="col colPurchased col-sm-6 col-xs-12">
+                <!--скролл-элемент purchased books -->
+                <div id="scroller">
+                    <div class="scrollbox">
+                        <div>
+                            <img src="images/LittleFiresEverywhere.png" alt="Little Fires Everywhere">
+                            <h5 class="bookScroll">Little Fires <br>Everywhere</h5>
+                            <p class="AuthorName">Celeste Ng</p>
+                        </div>
+                        <div>
+                            <img src="images/AllThePrettyHorses.png" alt="All the Pretty Horses">
+                            <h5 class="bookScroll">All the Pretty <br>Horses</h5>
+                            <p class="AuthorName">Joanna Scott</p>
+                        </div>
+                        <div>
+                            <img src="images/theHandmaidsTale.png" alt="The Handmaids Tale">
+                            <h5 class="bookScroll">The Handmaids <br>Tale</h5>
+                            <p class="AuthorName">Rebecca Coleman</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row rowLink justify-content-center">
+            <div class="col colPageLink col-sm-6 col-xs-12">
+                <!-- ссылка -->
+                <a class="pageLink" href="basket.html">View all Purchased Books ></a>
+            </div>
+        </div>
+        <div class="row rowName justify-content-center">
+            <div class="col col-sm-6 col-xs-12">
                 <!-- Здесь будет название раздела-->
             </div>
         </div>
-        <div class="row rowPurchased">
-            <div class="col">
-                <!--Здесь будет скролл-элемент purchased books -->
-                4
-            </div>
-        </div>
-        <div class="row rowLink">
-            <div class="col">
-                5
-                <!-- Здесь будет ссылка -->
-            </div>
-        </div>
-        <div class="row rowName">
-            <div class="col">
-                <!-- Здесь будет название раздела-->
-            </div>
-        </div>
-        <div class="row rowWishlist">
-            <div class="col">
+        <div class="row rowWishlist justify-content-center">
+            <div class="col col-sm-6 col-xs-12">
                 <!-- Здесь будет колонка виш-листа -->
             </div>
-            <div class="col">
+            <div class="col col-sm-6 col-xs-12">
                 <!-- Здесь будет колонка виш-листа -->
             </div>
-            <div class="col">
+            <div class="col col-sm-6 col-xs-12">
                 <!-- Здесь будет колонка виш-листа -->
             </div>
         </div>
-        <div class="row rowLink">
-            <div class="col">
-                5
-                <!-- Здесь будет ссылка -->
+        <div class="row rowLink justify-content-center">
+            <div class="col colPageLink col-sm-6 col-xs-12">
+                <!-- ссылка -->
+                <a class="pageLink" href="wishlist.html">View all Wishlist Books ></a>
             </div>
         </div>
         <div class="rowFooter">

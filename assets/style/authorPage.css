@@ -1,3 +1,52 @@
+.colAvatar,
+.colSubAvatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgContainer {
+    height: 20vh;
+    margin: 5vh 0 2vh 0;
+}
+
+h1 {
+    font-family: 'PlayfairDisplay';
+    font-weight: 700;
+    font-size: 31.25px;
+}
+
+.authorLocation {
+    color: #4b3030;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.follow {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.followAmount {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.name {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 16px;
+    margin: 3vh 0 3vh 0;
+}
+
+.rowFavourites {
+    margin: 0 0 5vh 0;
+}
+
 .genreAfrican,
 .genreClassics,
 .genreContemporary,
@@ -63,8 +112,46 @@
     border-radius: 16px;
 }
 
-
-
 .genreTrueCrime {
     background-image: linear-gradient(to right, #53889D 0%, #BBD1D9 100%);
+}
+
+#scroller {
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.scrollbox {
+    float: left;
+    margin-right: -30000px;
+}
+
+.scrollbox div {
+    float: left;
+    margin: 0 5vw 0 0;
+}
+
+.bookScroll {
+    font-weight: bold;
+    font-family: 'PlayfairDisplay';
+    font-size: 16px;
+}
+
+.AuthorName {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.pageLink {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 12px;
+    text-decoration: underline;
+    color: #D96F6E;
+}
+
+.colPageLink {
+    display: flex;
+    justify-content: center;
 }

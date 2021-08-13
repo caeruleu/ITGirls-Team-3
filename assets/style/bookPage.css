@@ -14,12 +14,17 @@
 }
 
 .bookAuthor,
-.bookDescription,
 .Genres,
 .Share {
     text-align: center;
     font-family: 'Montserrat';
     font-weight: 900;
+}
+
+.bookDescription {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    text-align: center;
 }
 
 .Genres,
