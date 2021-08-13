@@ -1,4 +1,4 @@
-.scrolling-wrapper {
+/*.scrolling-wrapper {
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: normal;
@@ -7,7 +7,7 @@
 .card {
     display: inline-block;
 }
-/*Для скроллинга элемента*/
+Для скроллинга элемента*/
 .rowName { /*стили шрифта для заголовков разделов h3*/
     font-family: "PlayfairDisplay";
     font-weight: 700;
@@ -15,15 +15,34 @@
     font-size: 20px;
 }
 
-h4 { /*стили шрифта для заголовков h4*/
+.bookScroll { /*стили шрифта для заголовков h4*/
     font-family: "PlayfairDisplay";
     font-weight: 700;
     font-style: normal;
     font-size: 16px;
 }
-p {/*стили шрифта для текста под заголовком*/
+.AuthorName {/*стили шрифта для текста под заголовком*/
     font-family: "Montserrat";
     font-weight: 400;
     font-style: normal;
     font-size: 12px;
 }
+#scroller {
+    margin: 0;
+    overflow: auto;
+}
+
+.scrollbox {
+    float: left;
+    margin-right: -30000px;
+}
+
+.scrollbox div {
+    float: left;
+    margin: 0 5vw 0 0;
+}
+
+.bookScroll {
+    font-weight: bold;
+    font-family: 'PlayfairDisplay';
+    font-size: 16px;

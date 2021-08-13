@@ -7,10 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.3/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="assets/style/homePage.css">
+    <link rel="stylesheet" href="assets/style/authorPage.css">
     <link rel="stylesheet" href="assets/style/commonStyles.css">
     <link rel="stylesheet" href="assets/font/PlayfairDisplay-VariableFont_wght.ttf">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -39,8 +36,8 @@
                 <!--Приветствие-->
             </div>
         </div>
-        <div class="row rowName">
-            <div class="col">
+        <div class="row rowName justify-content-center">
+            <div class="col col-sm-6 col-xs-12">
                 <!-- Здесь будет название раздела-->
             </div>
         </div>
@@ -59,36 +56,31 @@
                 <!--Скролл-элемент Top 10 authors-->
             </div>
         </div>
-        <div class="row rowName">
-            <div class="col">
-                <!--Название раздела-->
-                <h3>Latest Arrivals</h3>
+        <div class="row rowName justify-content-center">
+            <div class="col col-sm-6 col-xs-12">
+                <!-- название раздела -->
+                <h6 class="name">Latest Arrivals</h6>
             </div>
         </div>
-        <div class="row rowArrivals">
-            <!--Скролл-элемент Latest Arrivals, Такой же как Purchased books на authorPage-->
-            <!-- Carousel wrapper -->
-            <div class="col">
-                <div class="card-deck scrolling-wrapper">
-                    <div class="card w-25">
-                        <img src="images/LatAr_image1.png" class="card-img-top" alt="book cover">
-                        <div class="card-body">
-                            <h4 class="card-title">Conversations with Friends</h4>
-                            <p class="card-text">Sally Rooney</p>
+        <div class="row rowArrivals justify-content-center">
+            <div class="col rowArrivals col-sm-6 col-xs-12">
+                <!--скролл-элемент Latest Arrivals -->
+                <div id="scroller">
+                    <div class="scrollbox">
+                        <div>
+                            <img src="images/ConversationsWithFriends.png" alt="Conversations With Friends">
+                            <h5 class="bookScroll">Conversations with <br>Friends</h5>
+                            <p class="AuthorName">Sally Rooney</p>
                         </div>
-                    </div>
-                    <div class="card w-25">
-                        <img src="images/LatAr_image2.png" class="card-img-top" alt="book cover">
-                        <div class="card-body">
-                            <h4 class="card-title">The world doesn`t require you</h4>
-                            <p class="card-text">Rion Amilcar Scott</p>
+                        <div>
+                            <img src="images/TheWorldDoesntRequireYou.png" alt="The World Doesnt Require You">
+                            <h5 class="bookScroll">The world doesn`t <br>Require you</h5>
+                            <p class="AuthorName">Rion Amilcar Scott</p>
                         </div>
-                    </div>
-                    <div class="card w-25">
-                        <img src="images/LatAr_image2.png" class="card-img-top" alt="book cover">
-                        <div class="card-body">
-                            <h4 class="card-title">The last widow</h4>
-                            <p class="card-text">Karin Slaughter</p>
+                        <div>
+                            <img src="images/TheLastWidow.png" alt="The Last Widow">
+                            <h5 class="bookScroll">The last <br> widow</h5>
+                            <p class="AuthorName">Karin Slaughter</p>
                         </div>
                     </div>
                 </div>
