@@ -9,3 +9,24 @@
 .arrowLeft {
     height: 3vh;
 }
+
+.rowFooter {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vh;
+    text-align: center;
+    color: #53889D;
+}
+
+#footer-nav-home,
+#footer-nav-profile {
+    color: #53889D;
+}
+
+#footer-nav-home-disabled,
+#footer-nav-wish-disabled,
+#footer-nav-browse-disabled,
+#footer-nav-profile-disabled {
+    color: rgba(83, 136, 157, 0.5)
+}
