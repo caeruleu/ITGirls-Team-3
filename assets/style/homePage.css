@@ -41,7 +41,9 @@
     text-align: center;
 }
 
-#scroller {
+#scroller,
+#scroller-la,
+#scroller-pl {
     margin: 0 auto;
     overflow: auto;
 }
