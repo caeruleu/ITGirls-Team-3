@@ -8,32 +8,37 @@
     display: inline-block;
 }
 Для скроллинга элемента*/
-.rowName { /*стили шрифта для заголовков разделов h3*/
+.rowName {
+    /*стили шрифта для заголовков разделов h3*/
     font-family: "PlayfairDisplay";
     font-weight: 700;
     font-style: normal;
     font-size: 20px;
 }
 
-.bookScroll { /*стили шрифта для заголовков h4*/
+.bookScroll {
+    /*стили шрифта для заголовков h4*/
     font-family: "PlayfairDisplay";
     font-weight: 700;
     font-style: normal;
     font-size: 16px;
 }
-.AuthorName {/*стили шрифта для текста под заголовком*/
+
+.AuthorName {
+    /*стили шрифта для текста под заголовком*/
     font-family: "Montserrat";
     font-weight: 400;
     font-style: normal;
     font-size: 12px;
     color: #4F4F4F;
 }
+
 .Top10Name {
-   font-family: "Montserrat";
-   font-style: normal;
-   font-weight: 400;
-   font-size: 12px;
-   text-align: center;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
 }
 
 #scroller {
@@ -55,3 +60,4 @@
     font-weight: bold;
     font-family: 'PlayfairDisplay';
     font-size: 16px;
+}
