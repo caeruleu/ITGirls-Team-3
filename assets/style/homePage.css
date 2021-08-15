@@ -8,6 +8,20 @@
     display: inline-block;
 }
 Для скроллинга элемента*/
+
+h1 {
+    font-family: "PlayfairDisplay";
+    font-weight: 700;
+    font-size: 31.25px;
+    margin: 5vh 0 5vh 0;
+}
+
+.hello {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 24px;
+}
+
 .rowName {
     /*стили шрифта для заголовков разделов h3*/
     font-family: "PlayfairDisplay";
