@@ -155,3 +155,9 @@ h1 {
     display: flex;
     justify-content: center;
 }
+
+.colWish {
+    display: flex;
+    align-items: flex-start;
+    width: 100vw;
+}
